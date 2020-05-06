@@ -210,7 +210,9 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
-  max-width: 100%;
+  display: block;
+  max-width: 600px;
+  max-height: 600px;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -219,6 +221,10 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  object-fit: cover;
+
+  /* border-radius: 200px; */
+  
 }
 h1 {
   margin-left: 0;
